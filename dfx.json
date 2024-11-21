@@ -1,0 +1,15 @@
+{
+  "canisters": {
+    "points": {
+      "type": "azle",
+      "main": "src/index.ts",
+      "candid": "src/index.did",
+      "wasm": ".azle/points/points.wasm",
+      "gzip": true,
+      "declarations": {
+        "output": "./dfx-declarations/points",
+        "node_compatibility": true
+      }
+    }
+  }
+}
